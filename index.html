@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Grofly</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="logo">
+          <img src="img/logo.svg" alt="logo">
+        </a>
+        <div class="header__row">
+          <nav class="nav" data-menu>
+            <ul class="nav__list list-reset">
+              <li class="nav__item" data-menu-item><a href="#" class="nav__link">Home</a></li>
+              <li class="nav__item" data-menu-item><a href="#" class="nav__link">About</a></li>
+              <li class="nav__item" data-menu-item><a href="#" class="nav__link">Pages</a></li>
+              <li class="nav__item" data-menu-item><a href="#" class="nav__link">Services</a></li>
+            </ul>
+          </nav>
+          <div class="cart">
+            <span class="cart__text">Cart</span>
+            <span class="cart__num">0</span>
+          </div>
+          <button class="header__btn btn btn-reset">Get started</button>
+        </div>
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__content" data-aos="fade-left">
+            <h1 class="hero__title">Marketing solutions that grow your business.</h1>
+            <p class="hero__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in
+              eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor.</p>
+            <div class="hero__btn">
+              <button class="hero__btn-item btn-reset btn">Our services</button>
+              <button class="hero__btn-item btn-reset btn-secondary">Contact us</button>
+            </div>
+          </div>
+          <div class="hero__img" data-aos="fade-right">
+            <img src="img/hero-img.svg" alt="hero img">
+          </div>
+        </div>
+      </section>
+
+      <section class="partners">
+        <div class="container partners__container">
+          <h2 class="partners__title">TRUSTED BY startups and large enterprises</h2>
+          <div class="swiper partners__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="" class="partners__logo">
+                  <img src="img/partners-1.svg" alt="partners">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="partners__logo">
+                  <img src="img/partners-2.svg" alt="partners">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="partners__logo">
+                  <img src="img/partners-3.svg" alt="partners">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="partners__logo">
+                  <img src="img/partners-4.svg" alt="partners">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="" class="partners__logo">
+                  <img src="img/partners-5.svg" alt="partners">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container services__container">
+          <div class="services__content" data-aos="zoom-in">
+            <span class="services__header header-sections">services</span>
+            <h2 class="services__title">Services we offer</h2>
+            <p class="services__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim
+              in
+              eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor.</p>
+            <button class="services__btn btn btn-reset">All services</button>
+          </div>
+          <div class="services__card" data-aos="zoom-in-up">
+            <div class="services__row-1">
+              <div class="services__card-item">
+                <img src="img/services-img-1.svg" alt="services img" class="services__card-img">
+                <h4 class="services__card-title">Social Media Marketing</h4>
+                <p class="services__card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                  enim
+                  urna adipiscing praesent velit.</p>
+              </div>
+              <div class="services__card-item">
+                <img src="img/services-img-2.svg" alt="services img" class="services__card-img">
+                <h4 class="services__card-title">Email Marketing</h4>
+                <p class="services__card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                  enim
+                  urna adipiscing praesent velit.</p>
+              </div>
+            </div>
+            <div class="services__row-2">
+              <div class="services__card-item">
+                <img src="img/services-img-3.svg" alt="services img" class="services__card-img">
+                <h4 class="services__card-title">Paid Advertising</h4>
+                <p class="services__card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                  enim
+                  urna adipiscing praesent velit.</p>
+              </div>
+              <div class="services__card-item">
+                <img src="img/services-img-4.svg" alt="services img">
+                <h4 class="services__card-title">SEO Optimization</h4>
+                <p class="services__card-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                  enim
+                  urna adipiscing praesent velit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="choose">
+        <div class="container choose__container">
+          <div class="choose__img" data-aos="flip-left">
+            <img loading="lazy" src="img/choose-img.svg" class="image" width="608" height="785" alt="choose img">
+          </div>
+          <div class="choose__content" data-aos="zoom-out-left">
+            <span class="choose__header header-sections">why choose us</span>
+            <h2 class="choose__title">We help great brands
+              scale with content marketing.</h2>
+            <p class="choose__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim
+              in eros
+              elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor.</p>
+            <ul class="choose__list list-reset">
+              <li class="choose__list-item">
+                This is some text inside of a div.
+              </li>
+              <li class="choose__list-item">
+                This is some text inside of a div.
+              </li>
+              <li class="choose__list-item">
+                This is some text inside of a div.
+              </li>
+              <li class="choose__list-item">
+                This is some text inside of a div.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="description">
+        <div class="container description__container">
+          <div class="description__content" data-aos="fade-right">
+            <div class="description__item">
+              <span class="description__info">1.2M+</span>
+              <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.
+              </p>
+            </div>
+            <div class="description__item">
+              <span class="description__info">3.4B</span>
+              <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.
+              </p>
+            </div>
+            <div class="description__item">
+              <span class="description__info">98%</span>
+              <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.
+              </p>
+            </div>
+            <div class="description__item">
+              <span class="description__info">10+</span>
+              <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.
+              </p>
+            </div>
+          </div>
+          <div class="description__img" data-aos="fade-left">
+            <img src="img/description-img.svg" alt="description img">
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container testimonials__container">
+          <div class="testimonials__content" data-aos="fade-right">
+            <div class="testimonials__info">
+              <span class="testimonials__header header-sections">testimonials</span>
+              <h2 class="testimonials__title">See what our clients say</h2>
+              <p class="testimonials__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                enim
+                in
+                eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo
+                diam
+                libero.
+              </p>
+            </div>
+            <button class="testimonials__btn btn-reset btn">Get in touch</button>
+          </div>
+          <div class="testimonials__card" data-aos="fade-down">
+            <article class="testimonials__item">
+              <div class="testimonials__card-header card-user">
+                <img src="img/user-1.svg" alt="" class="card-user__img">
+                <div class="card-user__info">
+                  <h4 class="card-user__name">John Doe</h4>
+                  <p class="card-user__descr">Company Name</p>
+                </div>
+              </div>
+              <div class="testimonials__card-content">
+                <h4 class="testimonials__card-info">«I recommend this agency»</h4>
+                <p class="testimonials__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                  enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                  ut commodo
+                  diam libero.
+                </p>
+                <ul class="testimonials__card-rating list-reset">
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                </ul>
+              </div>
+            </article>
+            <article class="testimonials__item">
+              <div class="testimonials__card-header card-user">
+                <img src="img/user-2.svg" alt="" class="card-user__img">
+                <div class="card-user__info">
+                  <h4 class="card-user__name">Alice Smith</h4>
+                  <p class="card-user__descr">Company Name</p>
+                </div>
+              </div>
+              <div class="testimonials__card-content">
+                <h4 class="testimonials__card-info">«I recommend this agency»</h4>
+                <p class="testimonials__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                  enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                  ut commodo
+                  diam libero.
+                </p>
+                <ul class="testimonials__card-rating list-reset">
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                </ul>
+              </div>
+            </article>
+            <article class="testimonials__item">
+              <div class="testimonials__card-header card-user">
+                <img src="img/user-3.svg" alt="" class="card-user__img">
+                <div class="card-user__info">
+                  <h4 class="card-user__name">Sophia Miller</h4>
+                  <p class="card-user__descr">Company Name</p>
+                </div>
+              </div>
+              <div class="testimonials__card-content">
+                <h4 class="testimonials__card-info">«I recommend this agency»</h4>
+                <p class="testimonials__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                  enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                  ut commodo
+                  diam libero.
+                </p>
+                <ul class="testimonials__card-rating list-reset">
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                  <li><img src="img/star.svg" alt="star"></li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="container blog__container">
+          <div class="blog__content">
+            <div class="blog__info">
+              <span class="blog__header header-sections">blog</span>
+              <h2 class="blog__title">Read ourarticles & news</h2>
+              <p class="blog__descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                tristique.
+                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.
+              </p>
+            </div>
+            <button class="blog__btn btn-reset btn">All Posts</button>
+          </div>
+          <div class="blog__card" data-aos="fade-right">
+            <article class="blog__card-item">
+              <div class="blog__card-header">
+                <picture>
+                  <source srcset="img/blog-img-1.webp" type="image/webp">
+                  <img loading="lazy" src="img/blog-img-1.jpg" class="image blog__card-img" width="394.66"
+                    height="194.17" alt="blog img">
+                </picture>
+                <span class="blog__card-info">Social Media</span>
+              </div>
+              <div class="blog__card-content">
+                <span class="blog__card-data">August 28, 2022</span>
+                <h4 class="blog__card-title">How to Use Social Proof in Marketing</h4>
+                <p class="blog__card-descr">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent
+                  velit
+                  viverra sit semper lorem.
+                </p>
+                <a href="#" class="blog__card-link">Read now</a>
+              </div>
+            </article>
+            <article class="blog__card-item">
+              <div class="blog__card-header">
+                <picture>
+                  <source srcset="img/blog-img-2.webp" type="image/webp">
+                  <img loading="lazy" src="img/blog-img-2.jpg" class="image blog__card-img" width="394.66"
+                    height="194.17" alt="blog img">
+                </picture>
+                <span class="blog__card-info">SEO</span>
+              </div>
+              <div class="blog__card-content">
+                <span class="blog__card-data">August 28, 2022</span>
+                <h4 class="blog__card-title">Make a great first impression with these titles</h4>
+                <p class="blog__card-descr">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent
+                  velit
+                  viverra sit semper lorem.
+                </p>
+                <a href="#" class="blog__card-link">Read now</a>
+              </div>
+            </article>
+            <article class="blog__card-item">
+              <div class="blog__card-header">
+                <picture>
+                  <source srcset="img/blog-img-3.webp" type="image/webp">
+                  <img loading="lazy" src="img/blog-img-3.jpg" class="image blog__card-img" width="394.66"
+                    height="194.17" alt="blog img">
+                </picture>
+                <span class="blog__card-info">Strategy</span>
+              </div>
+              <div class="blog__card-content">
+                <span class="blog__card-data">August 28, 2022</span>
+                <h4 class="blog__card-title">How to Grab Your Reader’s Attention</h4>
+                <p class="blog__card-descr">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent
+                  velit
+                  viverra sit semper lorem.
+                </p>
+                <a href="#" class="blog__card-link">Read now</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="ready">
+        <div class="container ready__container">
+          <div class="ready__content" data-aos="flip-left">
+            <h2 class="ready__title">Ready to start scaling your business now?</h2>
+            <p class="ready__descr">Lorem ipsum dolor sit am consectetur adipiscing varius enim in eros.</p>
+          </div>
+          <div class="ready__btn" data-aos="flip-right">
+            <button class="ready__btn-item btn-reset btn">Our services</button>
+            <button class="ready__btn-item btn-reset btn-secondary ">Contact us</button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__col">
+          <a href="" class="footer__logo"><img src="img/logo.svg" alt="logo" class="logo"></a>
+          <div class="footer__info">
+            Growfy is a template highly suitable for modern marketing agencies, digital studios,
+            startups and businesses. The design is made in the dark style, which makes the site memorable and you can
+            easily
+            adapt it to your brand.
+          </div>
+          <ul class="footer__social list-reset">
+            <li>
+              <a href=""><img src="img/in.svg" alt="linkedin"></a>
+            </li>
+            <li>
+              <a href=""><img src="img/tw.svg" alt="Twitter"></a>
+            </li>
+            <li>
+              <a href=""><img src="img/fb.svg" alt="Facebook"></a>
+            </li>
+            <li>
+              <a href=""><img src="img/yt.svg" alt="YouTube"></a>
+            </li>
+            <li>
+              <a href=""><img src="img/inst.svg" alt="Instagram"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__title">Pages</h4>
+          <ul class="footer__menu list-reset">
+            <li>
+              <a href="#" class="footer__link">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                Packages
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__title">Utility pages</h4>
+          <ul class="footer__menu list-reset">
+            <li>
+              <a href="#" class="footer__link">
+                Instructions
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                Style guide
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                Licenses
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                Changelog
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                404 Not found
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">
+                Password protected
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__title">Subscribe to our newsletter</h4>
+          <div class="footer__info">Lorem ipsum dolor sit am consectetur adipiscing</div>
+          <form action="#" class="form">
+            <label class="form__label">
+              <input type="text" name="Имя" class="input-reset form__input" placeholder="Enter your email">
+            </label>
+            <button class="btn-reset form__btn btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
